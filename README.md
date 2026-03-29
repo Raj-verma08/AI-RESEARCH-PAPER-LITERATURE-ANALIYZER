@@ -55,7 +55,7 @@ df['categories'].str.contains('q-bio')
 
 ### Step 1: Load Data
 ```python
-chunks = pd.read_json(path, lines=True, chunksize=10000)
+chunks = pd.read_json(path, lines=True, chunksize=100000)
 ```
 ### Step 2: Filter Healthcare Category
 ```python
@@ -72,8 +72,49 @@ model = AutoModelForSequenceClassification.from_pretrained("dmis-lab/biobert-bas
 ### Step 4: Classification Function
 ```python
 def classify_healthcare(text):
-    inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
+    inputs = tokenizer(text,return_tensors="pt",truncation=True,padding=True,max_length=512)
     outputs = model(**inputs)
-    probs = torch.softmax(outputs.logits, dim=1)
-    return torch.argmax(probs).item()
+    prediction = torch.argmax(outputs.logits, dim=1).item()
+    return prediction
 ```
+### Step 5: Apply Model
+```python
+labels = []
+
+for abstract in medical_df["abstract"].fillna(""):
+    label = classify_healthcare(abstract)
+    labels.append(label)
+
+medical_df["healthcare_label"] = labels
+```
+### Step 6: Filter Final Healthcare Dataset
+```python
+healthcare_df = medical_df[
+    medical_df["healthcare_label"] == 1
+]
+```
+### Step 7: Save Final Dataset
+```python
+healthcare_df.to_csv("healthcare_papers.csv", index=False)
+```
+## 📊 Output
+
+Final dataset contains:
+
+- id
+- title
+- abstract
+- author
+- authors_parsed
+- categories
+- update_date
+- journal-ref
+- doi
+- year
+- healthcare_label
+  
+---
+## 📈 Key Insight
+- q-bio → Coarse filtering
+- BioBERT → Semantic understanding
+---
