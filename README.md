@@ -228,7 +228,7 @@ After running the full pipeline, the following files are generated:
 - **Source:** [ArXiv Dataset — Kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv)
 - **Domain filter:** `q-bio` (quantitative biology) categories
 - **Label filter:** BioBERT-classified healthcare papers (`label = 1`)
-- **Final dataset size:** ~26,125 papers
+- **Final dataset size:** ~26,119 papers
 - **Year range:** 2015 – present
 
 ---
