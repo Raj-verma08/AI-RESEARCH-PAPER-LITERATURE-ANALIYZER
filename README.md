@@ -237,6 +237,19 @@ After running the full pipeline, the following files are generated:
 - **Year range:** 2015 – present
 
 ---
+## 👨‍💻 Team Members
+- Harshit Yadav
+- Lakshya Joshi
+- Raj Verma
+
+---
+
+## 🎓 Mentor
+**Dr. Sahinur Rahman Laskar**<br>
+Assistant Professor<br>
+School of Computer Science, UPES, Dehradun, India<br>
+Email: sahinurlaskar.nits@gmail.com / sahinur.laskar@ddn.upes.ac.in<br>
+
 
 ## 🤝 Contributing
 
