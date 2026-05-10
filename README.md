@@ -3,6 +3,11 @@
 An end-to-end NLP pipeline for analyzing healthcare research papers from the **ArXiv q-bio** dataset. The project covers everything from raw data preprocessing to an interactive multi-page Streamlit dashboard — helping researchers discover trends, research gaps, and emerging topics in the biomedical domain.
 
 ---
+# Dashboard Demonstration Video
+
+🎥 Demo Video: [Watch Here](https://drive.google.com/drive/folders/1enAAhLiWxwbOitYTrq2LfqYRgim0B6a6?usp=sharing)
+
+---
 
 ## 📁 Project Structure
 
