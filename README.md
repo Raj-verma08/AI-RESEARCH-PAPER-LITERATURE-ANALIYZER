@@ -246,7 +246,7 @@ After running the full pipeline, the following files are generated:
 
 ## 🎓 Mentor
 **Dr. Sahinur Rahman Laskar**<br>
-Assistant Professor<br>
+Assistant Professor (Senior Scale)<br>
 School of Computer Science, UPES, Dehradun, India<br>
 Email: sahinurlaskar.nits@gmail.com / sahinur.laskar@ddn.upes.ac.in<br>
 
