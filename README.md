@@ -8,7 +8,13 @@ An end-to-end NLP pipeline for analyzing healthcare research papers from the **A
 🎥 Demo Video: [Watch Here](https://drive.google.com/drive/folders/1enAAhLiWxwbOitYTrq2LfqYRgim0B6a6?usp=sharing)
 
 ---
+## Architecuture
 
+<p align="center">
+  <img src="charts/Sys_Architecture.png" width="800">
+</p>
+
+---
 ## 📁 Project Structure
 
 ```
