@@ -1,4 +1,4 @@
-# 🏥 Healthcare Research Literature Analyzer
+# 🏥 Research Paper Literature Analyzer using NLP Techniques
 
 An end-to-end NLP pipeline for analyzing healthcare research papers from the **ArXiv q-bio** dataset. The project covers everything from raw data preprocessing to an interactive multi-page Streamlit dashboard — helping researchers discover trends, research gaps, and emerging topics in the biomedical domain.
 
