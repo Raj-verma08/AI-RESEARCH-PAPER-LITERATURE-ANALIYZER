@@ -5,7 +5,7 @@ An end-to-end NLP pipeline for analyzing healthcare research papers from the **A
 ---
 # Dashboard Demonstration Video
 
-🎥 Demo Video: [Watch Here](https://drive.google.com/drive/folders/1enAAhLiWxwbOitYTrq2LfqYRgim0B6a6?usp=sharing)
+🎥 Demo Video: [Watch Here](https://drive.google.com/drive/folders/1enAAhLiWxwbOitYTrq2LfqYRgim0B6a6?usp=sharing)<br>
 🎥 Demo Video on YouTube: [Watch Here](https://youtu.be/IGDHcBll_sc).
 
 ---
